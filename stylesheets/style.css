@@ -1,0 +1,340 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Montserrat:400,700");
+/* line 45, ../sass/_reset.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 61, ../sass/_reset.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/* line 74, ../sass/_reset.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 84, ../sass/_reset.scss */
+[hidden], template {
+  display: none;
+}
+
+/* line 97, ../sass/_reset.scss */
+html {
+  background: #fff;
+  color: #000;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  box-sizing: border-box;
+}
+
+/* line 110, ../sass/_reset.scss */
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+
+/* line 120, ../sass/_reset.scss */
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+/* line 124, ../sass/_reset.scss */
+body * {
+  box-sizing: border-box;
+}
+
+/* line 138, ../sass/_reset.scss */
+a {
+  background: transparent;
+  text-decoration: none;
+}
+/* line 146, ../sass/_reset.scss */
+a:focus {
+  outline: thin dotted;
+}
+/* line 152, ../sass/_reset.scss */
+a:hover, a:active {
+  outline: 0;
+}
+
+/* line 166, ../sass/_reset.scss */
+h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+/* line 171, ../sass/_reset.scss */
+h2 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+/* line 176, ../sass/_reset.scss */
+h3 {
+  font-size: 1.17em;
+  margin: 0;
+}
+
+/* line 181, ../sass/_reset.scss */
+h4 {
+  font-size: 1em;
+  margin: 0;
+}
+
+/* line 186, ../sass/_reset.scss */
+h5 {
+  font-size: 0.83em;
+  margin: 0;
+}
+
+/* line 191, ../sass/_reset.scss */
+h6 {
+  font-size: 0.75em;
+  margin: 0;
+}
+
+/* line 199, ../sass/_reset.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 205, ../sass/_reset.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 218, ../sass/_reset.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 224, ../sass/_reset.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 240, ../sass/_reset.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+/* line 253, ../sass/_reset.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* line 261, ../sass/_reset.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/* line 277, ../sass/_reset.scss */
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 286, ../sass/_reset.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 293, ../sass/_reset.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 301, ../sass/_reset.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 305, ../sass/_reset.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 357, ../sass/_reset.scss */
+img {
+  border: 0;
+}
+
+/* line 366, ../sass/_reset.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 376, ../sass/_reset.scss */
+figure {
+  margin: 0;
+}
+
+/* line 393, ../sass/_reset.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 404, ../sass/_reset.scss */
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+}
+
+/* line 418, ../sass/_reset.scss */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+}
+
+/* line 433, ../sass/_reset.scss */
+button, input {
+  line-height: normal;
+}
+
+/* line 442, ../sass/_reset.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 455, ../sass/_reset.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 468, ../sass/_reset.scss */
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+
+/* line 477, ../sass/_reset.scss */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 486, ../sass/_reset.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/* line 497, ../sass/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 505, ../sass/_reset.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+/* line 513, ../sass/_reset.scss */
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+/* line 523, ../sass/_reset.scss */
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 1, ../sass/_base.scss */
+body {
+  min-height: 100vh;
+  background-color: #1d1d1d;
+}
+/* line 5, ../sass/_base.scss */
+body a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* line 1, ../sass/components/_c-menu.scss */
+.c-menu {
+  padding: 20px;
+}
+/* line 4, ../sass/components/_c-menu.scss */
+.c-menu h1 {
+  display: inline-block;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+/* line 10, ../sass/components/_c-menu.scss */
+.c-menu span {
+  display: inline-block;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+}
+
+/* line 1, ../sass/components/_c-gallery.scss */
+.c-gallery {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+/* line 6, ../sass/components/_c-gallery.scss */
+.c-gallery .content {
+  width: 30%;
+  padding: 20px;
+  background-color: #fff;
+  color: #1d1d1d;
+  cursor: pointer;
+}
+/* line 13, ../sass/components/_c-gallery.scss */
+.c-gallery .content h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+}
+/* line 18, ../sass/components/_c-gallery.scss */
+.c-gallery .content p {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  line-height: 1.45;
+}

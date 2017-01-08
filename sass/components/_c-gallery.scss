@@ -1,0 +1,24 @@
+.c-gallery {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+
+  .content {
+    width: 30%;
+    padding: 20px;
+    background-color: $white;
+    color: $black;
+    cursor: pointer;
+
+    h2 {
+      font-family: $font-primary;
+      font-size: $font-size-large;
+    }
+
+    p {
+      font-family: $font-secondary;
+      font-size: $font-size-medium;
+      line-height: 1.45;
+    }
+  }
+}

@@ -1,9 +1,18 @@
+
 var shape = new mojs.Shape({
   shape:        'circle',
-  scale:         { 0 : 1 },
+  radius:       25,
+  // scale:        { 0.2 : 1 },
+  fill:         'none',
+  stroke:       { '#f64040' : '#00f87f' },
+  strokeWidth:  5,
+  strokeDasharray: '100%',
+  strokeDashoffset: { '-100%' : '100%' },
 
-  duration:      1000,
-  delay:         1000,
-  easing:        'cubic.out',
-  repeat:        999
+  duration:     2000,
+  repeat:       999,
+  delay:        0,
+  easing:       'sin.in',
+  isYoyo:       true,
+  isShowEnd:    false
 }).play();

@@ -7,9 +7,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
   </head>
-  <body>
+  <body class="l-demo">
+    <a class="return-link" href="/">
+      | return homepage
+    </a>
+    <span class="more-info-link" onclick="moreInfo();">
+      more info |
+    </span>
+    <div class="contain-info -hide">
+      <span class="hide-more-info" onclick="hiddenMoreInfo();">
+        close |
+      </span>
+      <div class="text-info">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+        <span class="author-name">Hector Arce</span>
+      </div>
+    </div>
   <script src="/scripts/babel.min.js"></script>
   <script src="/scripts/mo.min.js"></script>
-  <script type="text/babel" src="./demos/demo1/function.js"></script>
+  <script type="text/babel" src="./demos/demo1/function.js"></script> <!-- Demo functions -->
+  <script type="text/babel" src="./function.js"></script> <!-- Global functions -->
   </body>
 </html>

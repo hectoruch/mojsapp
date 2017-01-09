@@ -1,0 +1,60 @@
+.l-demo {
+  position: relative;
+  padding: 20px;
+
+  .return-link {
+    color: $white;
+    font-family: $font-primary;
+    font-size: $font-size-medium;
+  }
+
+  .more-info-link {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    color: $white;
+    font-family: $font-primary;
+    font-size: $font-size-small;
+    cursor: pointer;
+  }
+
+  .contain-info {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 350px;
+    height: 100%;
+    padding: 20px;
+    transition: .4s ease;
+    background-color: $white;
+    color: $black;
+
+    &.-hide {
+      right: -350px;
+    }
+
+    .hide-more-info {
+      font-family: $font-primary;
+      font-size: $font-size-medium;
+      cursor: pointer;
+    }
+
+    .text-info {
+      margin-top: 40px;
+      font-family: $font-secondary;
+      line-height: 1.65;
+
+      .author-name {
+        display: block;
+        margin-top: 10px;
+        font-size: $font-size-x-small;
+        font-weight: $bold;
+        text-align: right;
+      }
+    }
+
+    .info-author {
+
+    }
+  }
+}
